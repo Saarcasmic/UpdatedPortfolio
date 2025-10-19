@@ -29,10 +29,10 @@ const StatsSection = () => {
           {/* Left Content */}
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-thin font-manrope text-secondary-foreground leading-tight">
-              From beginners to seasoned pros,<br />
-              I create <span className="text-primary">custom plans</span> tailored to help you
+              From offline ideas to online reality,<br />
+              I build <span className="text-primary">scalable web solutions</span> that help
               <span className="text-muted-foreground">
-                 {" "}unlock your full potential and succeed in races.
+                 {" "}businesses and individuals succeed in the digital world.
               </span>
             </h2>
           </div>
@@ -40,50 +40,62 @@ const StatsSection = () => {
           {/* Right Image */}
           <div className="flex justify-center lg:justify-end">
             <img 
-              src="/lovable-uploads/45eae8c2-c5d5-4e05-9f8f-43d1c7bcc5ea.png"
-              alt="Triathlon coach providing guidance"
+              src="/assets/animated-dev-visual.gif"
+              alt="Modern web development and coding visualization"
               className="w-full max-w-lg rounded-2xl object-cover"
             />
           </div>
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-thin font-manrope text-secondary-foreground">
-              15+
+              6+
             </div>
             <p className="text-muted-foreground text-sm md:text-base">
-              Years of experience
+              Full-stack projects built
             </p>
           </div>
 
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-thin font-manrope text-secondary-foreground">
-              200+
+              2
             </div>
             <p className="text-muted-foreground text-sm md:text-base">
-              Athletes coached
+              Industry internships
             </p>
           </div>
 
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-thin font-manrope text-secondary-foreground">
-              500+
+              2+
             </div>
             <p className="text-muted-foreground text-sm md:text-base">
-              Race strategies
+              Client websites delivered
             </p>
           </div>
 
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-thin font-manrope text-secondary-foreground">
-              10,000+
+              MERN
             </div>
             <p className="text-muted-foreground text-sm md:text-base">
-              Training hours
+              Stack specialization
             </p>
           </div>
+        </div>
+
+        {/* Tech Stack Tags */}
+        <div className="flex flex-wrap justify-center gap-3">
+          {["React.js", "Node.js", "MongoDB", "Express", "Tailwind CSS", "RESTful APIs", "AWS & Netlify"].map((tech) => (
+            <span 
+              key={tech}
+              className="px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium border border-primary/20 hover:bg-primary/20 transition-colors"
+            >
+              {tech}
+            </span>
+          ))}
         </div>
       </div>
     </section>
