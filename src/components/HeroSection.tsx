@@ -45,14 +45,14 @@ const HeroSection = () => {
       </nav>
 
       {/* Main Content */}
-      <div className="relative z-10 flex items-center min-h-[calc(100vh-80px)] px-6 md:px-12">
+      <div className="relative z-10 flex items-center min-h-[calc(100vh-80px)] px-6 md:px-12 text-black">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 w-full max-w-7xl mx-auto">
           {/* Left Content - 60% */}
           <div className="lg:col-span-3 space-y-8">
             {/* Label */}
             <div className="flex items-center space-x-3">
               <div className="h-px w-8 bg-primary"></div>
-              <span className="text-xs text-black uppercase tracking-wide text-foreground font-medium">
+              <span className="text-xs uppercase tracking-wide text-foreground font-medium">
                 Experienced triathlon coach
               </span>
             </div>
