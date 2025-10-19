@@ -45,7 +45,7 @@ const HeroSection = () => {
       </nav>
 
       {/* Main Content */}
-      <div className="relative z-10 flex items-center min-h-[calc(100vh-80px)] px-6 md:px-12 text-black">
+      <div className="relative z-10 flex items-center min-h-[calc(100vh-80px)] px-6 md:px-12 text-[hsl(0,0%,0%)]">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 w-full max-w-7xl mx-auto">
           {/* Left Content - 60% */}
           <div className="lg:col-span-3 space-y-8">
