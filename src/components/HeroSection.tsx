@@ -24,17 +24,16 @@ const HeroSection = () => {
       <nav className="relative z-10 px-6 md:px-12 py-4 bg-black/30 backdrop-blur-sm">
         <div className="flex items-center justify-between w-full max-w-7xl mx-auto">
           {/* Logo - Left aligned with hero content */}
-          <div className="text-xl font-thin font-manrope text-foreground">
-            TriPerform
+          <div className="text-xl font-thin font-manrope text-white">
+            Portfolio
           </div>
           
           {/* Centered Nav Items */}
           <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex items-center space-x-8">
-            <a href="#" className="text-foreground font-thin font-manrope">Perform</a>
-            <a href="#" className="text-foreground font-thin font-manrope hover:text-foreground/80 transition-colors">Coaching</a>
-            <a href="#" className="text-foreground font-thin font-manrope hover:text-foreground/80 transition-colors">Reviews</a>
-            <a href="#" className="text-foreground font-thin font-manrope hover:text-foreground/80 transition-colors">About</a>
-            <a href="#" className="text-foreground font-thin font-manrope hover:text-foreground/80 transition-colors">Contact</a>
+            <a href="#" className="text-white font-thin font-manrope">Clients</a>
+            <a href="#" className="text-white font-thin font-manrope hover:text-white/80 transition-colors">Projects</a>
+            <a href="#" className="text-white font-thin font-manrope hover:text-white/80 transition-colors">About</a>
+            <a href="#" className="text-white font-thin font-manrope hover:text-white/80 transition-colors">Contact</a>
           </div>
           
           {/* Right Button */}
@@ -52,23 +51,23 @@ const HeroSection = () => {
             {/* Label */}
             <div className="flex items-center space-x-3">
               <div className="h-px w-8 bg-primary"></div>
-              <span className="text-xs uppercase tracking-wide text-foreground font-medium">
+              <span className="text-xs uppercase tracking-wide text-black font-medium">
                 Experienced triathlon coach
               </span>
             </div>
 
             {/* Main Headlines */}
             <div className="space-y-2">
-              <h1 className="text-5xl md:text-7xl font-thin font-manrope text-foreground leading-tight">
+              <h1 className="text-5xl md:text-7xl font-thin font-manrope text-black leading-tight">
                 Level Up Your
               </h1>
-              <h1 className="text-5xl md:text-7xl font-thin font-manrope text-foreground leading-tight">
+              <h1 className="text-5xl md:text-7xl font-thin font-manrope text-black leading-tight">
                 Performance
               </h1>
             </div>
 
             {/* Subheading */}
-            <p className="text-lg md:text-xl text-foreground max-w-2xl leading-relaxed font-light">
+            <p className="text-lg md:text-xl text-black max-w-2xl leading-relaxed font-light">
               Improve your triathlon performance with personalized training plans guided by an experienced coach committed to your success.
             </p>
 
