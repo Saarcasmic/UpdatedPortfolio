@@ -21,7 +21,7 @@ const HeroSection = () => {
       </div>
 
       {/* Navigation Bar */}
-      <nav className="relative z-10 px-6 md:px-12 py-4">
+      <nav className="relative z-10 px-6 md:px-12 py-4 bg-black/30 backdrop-blur-sm">
         <div className="flex items-center justify-between w-full max-w-7xl mx-auto">
           {/* Logo - Left aligned with hero content */}
           <div className="text-xl font-thin font-manrope text-foreground">
@@ -74,9 +74,9 @@ const HeroSection = () => {
 
             {/* CTA Button */}
             <div className="pt-4">
-              <button className="bg-zinc-100 w-fit border-zinc-200 border-[1px] text-black p-1 pl-4 text-sm rounded-full font-medium flex items-center gap-2 hover:scale-105 transition">
-                Start now <span className="bg-black p-2 rounded-full">
-                  <MoveUpRight className="w-4 h-4 text-white" />
+              <button className="bg-zinc-900 w-fit border-zinc-800 border-[1px] text-white p-1 pl-4 text-sm rounded-full font-medium flex items-center gap-2 hover:scale-105 transition">
+                Start now <span className="bg-white p-2 rounded-full">
+                  <MoveUpRight className="w-4 h-4 text-black" />
                 </span>
               </button>
             </div>
