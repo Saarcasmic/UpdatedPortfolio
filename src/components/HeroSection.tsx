@@ -14,7 +14,7 @@ const HeroSection = () => {
           className="h-full w-full object-cover"
         >
           <source
-            src="https://res.cloudinary.com/doevp9obh/video/upload/v1752333240/social_u7865913127_httpss.mj.runmei1JZxLXS0_Animate_this_image_into__9a7cb427-acfb-4c94-a0db-370573f093ef_0_t2doet.mp4"
+            src="https://res.cloudinary.com/drjwqvvhz/video/upload/v1760888726/Seamless_Coding_Montage_Video_kpd4tr.mp4"
             type="video/mp4"
           />
         </video>
