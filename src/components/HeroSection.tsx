@@ -47,7 +47,7 @@ const HeroSection = () => {
       <div className="relative z-10 flex items-center min-h-[calc(100vh-80px)] px-6 md:px-12 text-[hsl(0,0%,0%)]">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 w-full max-w-7xl mx-auto">
           {/* Left Content - 60% */}
-          <div className="lg:col-span-3 space-y-8">
+          <div className="lg:col-span-3 space-y-8 p-8 bg-gradient-to-r from-black/70 via-black/30 to-transparent rounded-lg">
             {/* Label */}
             <div className="flex items-center space-x-3">
               <div className="h-px w-8 bg-primary"></div>
