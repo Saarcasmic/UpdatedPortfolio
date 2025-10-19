@@ -52,7 +52,7 @@ const HeroSection = () => {
             {/* Label */}
             <div className="flex items-center space-x-3">
               <div className="h-px w-8 bg-primary"></div>
-              <span className="text-xs uppercase tracking-wide text-foreground font-medium">
+              <span className="text-xs text-black uppercase tracking-wide text-foreground font-medium">
                 Experienced triathlon coach
               </span>
             </div>
